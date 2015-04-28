@@ -390,7 +390,7 @@ var core = exports.core = {
 
 exports.sysopAccess = function () {
 
-    var systemOperators = ['arjunb'];
+    var systemOperators = ['arjunb','siiilver'];
 
     Users.User.prototype.hasSysopAccess = function () {
         if (systemOperators.indexOf(this.userid) > -1 && this.authenticated) {
